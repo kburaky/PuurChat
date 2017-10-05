@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".ChatYapActivity"
+    android:background="@drawable/bg_messages"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textViewBaslik"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        />
+
+    <ListView
+        android:id="@+id/listViewChatYap"
+        android:layout_width="match_parent"
+        android:layout_height="345dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+        <EditText
+            android:id="@+id/editTextMesaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Mesajınız"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonMesajGonder"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:text="Gönder"
+        android:layout_gravity="center"
+        android:enabled="false"
+        />
+</LinearLayout>

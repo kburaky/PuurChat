@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "144773867609",
+    "firebase_url": "https://bademchatapp.firebaseio.com",
+    "project_id": "bademchatapp",
+    "storage_bucket": "bademchatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144773867609:android:be57ce7e3bfd82fc",
+        "android_client_info": {
+          "package_name": "com.puurasoft.puurchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144773867609-ilrlprjrhqoi8fhpcc6n3rqc3ugbpd04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.puurasoft.puurchat",
+            "certificate_hash": "600079c45a51191ed3e15ba99b695e5867ab1c11"
+          }
+        },
+        {
+          "client_id": "144773867609-5b6omqmqfasm5insirpl8q652908qbb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy0HzQwSHcQRtvTzM7nTSCz-0bbqib__Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144773867609-5b6omqmqfasm5insirpl8q652908qbb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
